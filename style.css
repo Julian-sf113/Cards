@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Para evitar barras de scroll con width: 100vw */
+    padding: 20px; /* El padding se aplicará dentro del body */
+    height: 100vh; /* El body ocupará el 100% de la altura del viewport */
+    width: 100vw; /* El body ocupará el 100% del ancho del viewport */
+
+     /*Background color rgba*/
+    background-color:rgba(44, 248, 234, 0.7);
+
+     /* Imagen de fondo */
+    background-image: url(imagenes/2557a9c22d8b24a8ec0a5595413645f0.jpg);
+    
+     /* Posicion de la imagen  */
+    background-position: center center;
+
+     /* Desplazamiento de la imagen */
+    background-attachment: fixed;
+
+     /* Tamaño de la imagen */
+    background-size: cover;
+
+     /* fuente de Google font */
+    font-family: "Roboto Condensed", sans-serif; /* Establece la fuente del texto */
+
+     /* Estilo de fuente para la legibilidad */
+    font-optical-sizing: auto;
+
+    /* Tamaño de la fuente */
+    font-weight: 400;
+
+    /* Estilo de la fuente */
+    font-style: normal;
+
+}
+
+.card {
+    display: inline-block;
+    border: 3px solid;
+    border-color: black;
+    padding: 15px;
+    vertical-align: top;
+    height: 300px;
+    width: 200px;
+    margin: 16px;
+    overflow: hidden;
+    background-color:rgba(211, 86, 86, 0.5);
+}
+
+.card > img {
+    width: 100%;
+    height: 88%;  /* Ajusta la altura para dejar espacio al título */
+    object-fit: contain; /* Escala la imagen manteniendo la proporción */
+    border-radius: 8px;
+    display: block; /* Elimina espacio extra debajo de la imagen */
+    margin-bottom: 10px; /* Espacio entre imagen y título */
+}
+
+/* Estilos individuales para las primeras 5 tarjetas */
+#card-1 {
+
+    background-color: #0deab7; /* Cambia el color del fondo a agua marina */
+}
+
+#card-2 {
+
+    color:rgb(50, 154, 233);
+}
+
+#card-3 {
+
+    background-color: rgb(239, 235, 25
+    );
+}
+
+#card-4 {
+
+    color : rgb(255, 0, 0);
+    text-transform: initial; /* Convierte el texto al estado normal */
+    letter-spacing: 20px; /* Espaciado entre letras */
+    text-shadow: hwb(0 0% 0%)  2px 2px 2px; /* Sombra de texto */
+}
+
+#card-5 {
+
+    background-color: rgb(240, 136, 6
+    ); /* Cambia el color de fondo a naranja */
+}
+
+#card-8 {
+
+    background-color: rgba(98, 240, 6, 0.5);
+}
+
+#card-14 {
+     /* rem: Relativo al font-size del elemento raíz (html).
+       Si el font-size raíz es 16px (predeterminado), 1.5rem = 24px.
+       Escala si cambia el font-size raíz. */
+    font-size: 0.8rem; /*Afecta el nombre de la card */
+    
+    /* em: Relativo al font-size del elemento actual (#card-9).
+       Aquí, 1em = 1.5rem (el font-size que acabamos de definir).
+       Si 1.5rem = 24px, entonces padding: 1em; será 24px.
+       Escala si cambia el font-size de #card-9. */
+    padding: 2em; /* Genera un espacio entre la tarjeta */
+}
+
+#card-12 {
+
+    background-image: radial-gradient(circle, #a36dff, #f9a36d); /* gradiante radial de violeta a naranja */
+}
+
+#card-15 {
+
+    background-image: linear-gradient(to bottom right, #58ffd9, #f1fa4a  ); /* Gradiante de celeste a amarrillo*/
+}
+
+#card-17 img {
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener */
+}
